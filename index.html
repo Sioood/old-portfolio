@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+
+<!-- Primary Meta Tags -->
+<title>Théo Dupont portfolio</title>
+<link rel="canonical" href="http://theodupont.ga/">
+<meta name="title" content="Théo Dupont — portfolio">
+<meta name="description" content="Portfolio de Théo Dupont alias 'Siod', créatif et curieux, graphiste spécialisé dans la création et la réalisation d'identité visuelle, de logo, de design web et de communication.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://theodupont.ga/">
+<meta property="og:title" content="Théo Dupont — portfolio">
+<meta property="og:description" content="Portfolio de Théo Dupont alias 'Siod', créatif et curieux, graphiste spécialisé dans la création et la réalisation d'identité visuelle, de logo, de design web et de communication.">
+<meta property="og:image" content="https://media.discordapp.net/attachments/722490716504326264/786301261729366106/og-image.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="http://theodupont.ga/">
+<meta property="twitter:title" content="Théo Dupont — portfolio">
+<meta name="twitter:creator" content="@Siooooood">
+<meta property="twitter:description" content="Portfolio de Théo Dupont alias 'Siod', créatif et curieux, graphiste spécialisé dans la création et la réalisation d'identité visuelle, de logo, de design web et de communication.">
+<meta property="twitter:image" content="https://media.discordapp.net/attachments/722490716504326264/786301261729366106/og-image.png">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D9WMY8BM6D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D9WMY8BM6D');
+</script>
+
+<html lang="fr">
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="google-site-verification" content="XwbzgTuAwZADGpCHjZ4ZoWEpYP6TlxUXh0kNk0WT59g" />
+
+
+    <!-- enlever le watermark webhost -->
+    <style>img[alt="www.000webhost.com"]{display:none};</style>
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/wip.css">
+    
+ <link rel="preload" href="font/FivosSansModern/fivosansmodern-regular-oblique-webfont.woff2" as="font" type="font/woff2" crossorigin>
+ <link rel="preload" href="font/FivosSansModern/fivosansmodern-heavy-webfont.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="font/FivosSansModern/fivosansmodern-heavy-webfont.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="font/FivosSansModern/fivosansmodern-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="font/Avara/avara-black-webfont.woff2" as="font" type="font/woff2" crossorigin>
+
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- <img src="https://picsum.photos/1920/1080?grayscale" alt=""> -->
+
+<body>
+
+    <header>
+     <!-- navbar -->
+    <div class="container-navbar">
+      <div class="navbar">
+          <div class="navbar-logo" id="logo" > 
+              <a href="" ><img src="img/logo navbar white.png" width="100px" height="auto" alt="Logo Siod"></a>
+          </div>
+
+              <div class="navbar-menu">
+                  
+                  <a href="#about" class="navbar-menu-link">About</a>
+                  <a href="#work" class="navbar-menu-link">Work</a>
+                  <a href="#contact" class="navbar-menu-link">Contact</a>
+
+              </div>
+
+              <div class="navbar-logo2">
+                  <img src="img/logo navbar white.png" width="100px" height="auto" alt="Logo Siod">
+              </div>
+              
+      </div>
+  </div>
+    </header>
+
+
+
+<!-- pages -->
+
+<div class="about" id="about">
+    <div class="container-left" data-score="-7">
+      
+      <h5>Théo Dupont</h5>
+      <h1>Designer Graphique</h1>
+      <p>Toujours en recherche de progression, je laisse trainer ma curiosité dans tous les domaines.
+
+
+      </p>
+      <div class="about-btn-contact">
+        <button onclick="location.href='#contact'" id="about-btn-contact">Contactez-moi</button>
+      </div>
+    </div>
+    
+    <div class="container-right" data-score="7">
+      
+    <img src="img/logo.png" data-score="-7" width="85%" alt=""> 
+
+    <!-- Script parallax texte-->
+
+    <script>
+        document.addEventListener('mousemove', function(e){
+          this.querySelectorAll('.container-left').forEach(el=>{
+            const score = el.getAttribute('data-score');
+            const x = (window.innerWidth - e.clientX * score) / 100;
+            const y = (window.innerWidth - e.clientY * score) / 100;
+      
+            el.style.transform = `
+                  translateX(${x}px)
+                  translateY(${y}px)
+            `;
+          })
+        });
+      </script>
+      
+      <!-- Script parallax img -->
+      
+      <script>
+      document.addEventListener('mousemove', function(e){
+      this.querySelectorAll('.container-right').forEach(el=>{
+        const score = el.getAttribute('data-score');
+        const x = (window.innerWidth - e.pageX * score) / 100;
+        const y = (window.innerWidth - e.pageY * score) / 100;
+      
+        el.style.transform = `
+              translateX(${x}px)
+              translateY(${y}px)
+        `;
+      })
+      });
+      </script>
+    </div>
+        <span class="scroll-btn">
+                <span class="mouse">
+                    <span>
+                    </span>
+            </span>
+    </span>
+</div>
+
+<div class="aboutme">
+  <div class="wrapper-aboutme-top">
+    <!-- container aboutme left/about -->
+    <div class="aboutme-container-left">
+      <h1>À propos de <font color="#e63b3b"><br>moi</font> &#8602;</h1>
+      <div class="aboutme-line"></div>
+      <p>Attiré depuis toujours par l'art en général, j'ai toujours laissé ma curiosité se balader librement dans tous les domaines. <br>
+        Au fur et à mesure de mon parcours scolaire, je me suis intéressé de plus en plus au design graphique et aux logiciels, 
+        j'ai expérimenté et appris seul, puis j'ai suivi un BTS Design Graphique pour affiner mes compétences et ma vision du graphisme.
+      </p>
+      <div class="aboutme-line"></div>
+      <p>Citation : <em>Raymond Loewy</em> </p>
+    </div>
+    <!-- container aboutme right/citation -->
+    <div class="aboutme-container-right">
+      <blockquote>"La laideur<br>se vend<br>mal"</blockquote>
+    </div>
+  </div>
+
+  <!-- container aboutme bottom/compétences -->
+  <div class="wrapper-aboutme-bottom">
+    <div class="skill 1">
+      <div class="aboutme-line"></div>
+      <h1>Identité visuelle</h1>
+    </div>
+    <div class="skill 2">
+      <div class="aboutme-line"></div>
+      <h1>Communication</h1>
+    </div>
+    <div class="skill 3">
+      <div class="aboutme-line"></div>
+      <h1>Édition</h1>
+    </div>
+    <div class="skill 4">
+      <div class="aboutme-line"></div>
+      <h1>Packaging</h1>
+    </div>
+  </div>
+</div>
+
+<div class="work" id="work">
+  <!-- wrapper des projets -->
+    <div class="wrapper-work">
+  <!-- container projet 1 -->
+      <div class="container-work">
+        <div class="top">
+          <h6>01</h6>
+          <span class="line"></span>
+        </div>
+        <div class="work-content">
+          <!-- infos type/client/date -->
+          <div class="wrapper-work-info">
+            <div id="first-info"><h6>Type</h6><h6>Logotype</h6></div>
+            <div id="second-info"><h6>Client</h6> <h6>Parc Gouraud</h6> <h6><a href="http://agglo.grandsoissons.com/votre-agglo/les-grands-projets/le-parc-gouraud-948.html" target="_blank">agglo.grandsoissons.com</a></h6></div>
+            <div id="third-info"><h6>Date</h6><h6>2019</h6></div>
+          </div>
+          <div class="work-left">
+            <!-- image principale -->
+            <img src="img/1-akolade/1.png" alt="">
+            <!-- images secondaires -->
+            <div class="work-gallery-row">
+              <div class="gallery"><img src="img/1-akolade/2.png" alt=""></div>
+              <div class="gallery"><img src="img/1-akolade/3.png" alt=""></div>
+          </div> 
+        </div> 
+          <div class="work-right">
+            <h1>Akolade</h1>
+            <p>Akolade c'est un tiers-lieu numérique situé dans le parc Gouraud de Soissons qui a de nombreux accompagnements (bureaux, commerces, coworking...). <br>
+              Le concept évoque la résonance et l'accompagnement qu'apporte le parc, tout ça en faisant ressortir le coté numérique du tiers-lieu. <br>
+              L'accolade regroupe tous ces éléments, le nom s'est transformé avec un "k" pour le relier à l'espace de coworking déjà existant "le Kanap",
+              je me suis donc servis de ça pour modifier l'accolade et la faire former un "K" puis extraire une pièce de celle-ci, représentant l'accompagnement
+              humain, mais aussi la pièce qui manque aux compétences et qui permet d'être complété grâce au tiers-lieu.
+            </p>     
+              <h5><a href="Akolade.html">&larr;See more</a></h5>
+          </div>  
+        </div>
+      </div>
+
+      <!-- container projet 2 -->
+      <div class="container-work">
+        <div class="top">
+            <span class="line"></span>
+            <h6>02</h6>
+          </div>
+    <div class="work-content">
+      <!-- infos type/client/date -->
+      <div class="wrapper-work-info">
+        <div id="first-info"><h6>Type</h6><h6>Affiche</h6></div>
+        <div id="second-info"><h6>Client</h6><h6>Villeneuve-Saint-Germain<br></h6> <h6><a href="http://www.villeneuve-st-germain.fr/page-d-accueil/" target="_blank">www.villeneuve-st-germain.fr</a></h6></div>
+        <div id="third-info"><h6>Date</h6><h6>2019</h6></div>
+      </div>
+      <div class="work-left">
+        <!-- image principale -->
+        <img src="img/2-le salon du vin et des terroirs/1.png" alt="">
+      </div> 
+      <div class="work-right">
+        <h1>Salon du vin et des terroirs</h1>
+        <p>Pour ce salon du vin je me suis servis de bouchons usagés pour former la France,
+           car ce salon regroupait exclusivement des producteurs français.
+        </p>     
+        <h5><a href="Salon-du-vin-et-des-terroirs.html">&larr;See more</a></h5>
+      </div>
+    </div>
+  </div>
+
+              <!-- container projet 3 -->
+              <div class="container-work">
+                <div class="top">
+                    <span class="line"></span>
+                    <h6>03</h6>
+                  </div>
+            <div class="work-content">
+              <!-- infos type/client/date -->
+              <div class="wrapper-work-info">
+                <div id="first-info"><h6>Type</h6><h6>Logotype</h6></div>
+                <div id="second-info"><h6>Client</h6><h6>le Jardin de Servins<br></h6> <h6><a href="https://www.lejardindeservins.com" target="_blank">lejardindeservins.com</a></h6></div>
+                <div id="third-info"><h6>Date</h6><h6>2017</h6></div>
+              </div>
+              <div class="work-left">
+                <!-- images principales -->
+                <div class="work-gallery-row">
+                  <div class="gallery"><img src="img/3-le jardin de servins/1.png" alt=""></div>
+                  <div class="gallery"><img src="img/3-le jardin de servins/2.png" alt=""></div>
+              </div> 
+              </div> 
+              <div class="work-right">
+                <h1>le Jardin de Servins</h1>
+                <p>Le Jardin de Servins c'est une self-ceuillette bio qui met en vente des fruits et légumes de saison.
+                  L'objectif était donc de faire ressortir le développement des pousses dans de la terre, au soleil.
+                  Centraliser la vue sur la plante et voir qu'elle pousse sans engrais. <br>
+                  Voir la terre et avoir un point de vue à même le sol permet de se rendre compte que nous choisissons nos produits,
+                  ils ne seront pas comme au supermarché.
+                </p>     
+                <h5><a href="le-Jardin-de-Servins.html">&larr;See more</a></h5>
+              </div>
+            </div>
+          </div>
+
+  <!-- container projet 4 -->
+  <div class="container-work">
+    <div class="top">
+      <h6>04</h6>
+      <span class="line"></span>
+    </div>
+    <div class="work-content">
+      <!-- infos type/client/date -->
+      <div class="wrapper-work-info">
+        <div id="first-info"><h6>Type</h6><h6>Logotype</h6></div>
+        <div id="second-info"><h6>Client</h6> <h6>l'Atelier d'Émile</h6></div>
+        <div id="third-info"><h6>Date</h6><h6>2020</h6></div>
+      </div>
+      <div class="work-left" id="atelier-demile">
+        <!-- image principale -->
+        <img src="img/4-l'atelier d'emile/1.png" alt="">
+        <!-- images secondaires -->
+        <div class="work-gallery-row">
+          <div class="gallery"><img src="img/4-l'atelier d'emile/2.png" alt=""></div>
+          <div class="gallery"><img src="img/4-l'atelier d'emile/3.png" alt=""></div>
+      </div> 
+    </div> 
+      <div class="work-right">
+        <h1>l'Atelier d'Émile</h1>
+        <p>l'Atelier d'Émile c'est une boucherie qui se veux authentique, sobre. <br>
+          Le noir et blanc créer une harmonie avec la vache et permet une authenticité des produits.
+        </p>     
+        <h5><a href="atelier-emile.html">&larr;See more</a></h5>
+      </div>  
+    </div>
+  </div>
+
+              <!-- container projet 5 -->
+      <div class="container-work">
+        <div class="top">
+            <span class="line"></span>
+            <h6>05</h6>
+          </div>
+    <div class="work-content">
+      <!-- infos type/client/date -->
+      <div class="wrapper-work-info">
+        <div id="first-info"><h6>Type</h6><h6>Affiche/Flyers</h6></div>
+        <div id="second-info"><h6>Client</h6><h6>Personnal project<br></h6> <h6><a href="https://www.instagram.com/sioooood/" target="_blank">Instagram : @Sioooood</a></h6></div>
+        <div id="third-info"><h6>Date</h6><h6>2020</h6></div>
+      </div>
+      <div class="work-left">
+        <!-- image principale -->
+        <img src="img/5-astérique/1.png" alt="">
+        <img src="img/5-astérique/2.png" alt="">
+      </div> 
+      <div class="work-right">
+        <h1>Astérisque<em>*</em></h1>
+        <p>Le concept d'Astérisque est de mettre en place des feuilles cartonnées, flyers, affiches,
+          qui présentent un artiste ou designer connu et reconnu dans son domaine.
+        </p>     
+        <h5><a href="asterisque.html">&larr;See more</a></h5>
+      </div>
+    </div>
+  </div>
+
+    <!-- container projet 6 -->
+    <div class="container-work">
+      <div class="top">
+        <h6>06</h6>
+        <span class="line"></span>
+      </div>
+      <div class="work-content">
+        <!-- infos type/client/date -->
+        <div class="wrapper-work-info">
+          <div id="first-info"><h6>Type</h6><h6>Cover</h6></div>
+          <div id="second-info"><h6>Client</h6> <h6>Fictive Project <br>Betraying the Martyrs</h6> <h6><a href="https://www.instagram.com/p/CGmZa3KheLV/?utm_source=ig_web_button_share_sheet" target="_blank">Instagram : @Sioooood</a></div>
+          <div id="third-info"><h6>Date</h6><h6>2020</h6></div>
+        </div>
+        <div class="work-left">
+          <!-- image principale -->
+          <img src="img/6-betraying the martyrs/1.png" alt="">
+          <!-- images secondaires -->
+          <div class="work-gallery-row">
+            <div class="gallery"><img src="img/6-betraying the martyrs/2.png" alt=""></div>
+            <div class="gallery"><img src="img/6-betraying the martyrs/3.png" alt=""></div>
+        </div> 
+      </div> 
+        <div class="work-right">
+          <h1>Betraying The Martyrs</h1>
+          <p>Réalisation d'une pochette d'album (fictive) pour l'album "Rapture" de <em>Betraying The Martyrs.</em></p>     
+          <h5><a href="Betraying-The-Martyrs.html">&larr;See more</a></h5>
+        </div>  
+      </div>
+    </div>
+
+    <!-- container projet 7 -->
+    <div class="container-work">
+      <div class="top">
+        <h6>07</h6>
+        <span class="line"></span>
+      </div>
+      <div class="work-content">
+        <!-- infos type/client/date -->
+        <div class="wrapper-work-info">
+          <div id="first-info"><h6>Type</h6><h6>3D</h6></div>
+          <div id="second-info"><h6>Client</h6> <h6>Personnal Experiment<br><h6><a href="https://www.instagram.com/sioooood/" target="_blank">Instagram : @Sioooood</a></div>
+          <div id="third-info"><h6>Date</h6><h6>2020</h6></div>
+        </div>
+        <div class="work-left">
+          <!-- image principale -->
+          <video src="img/7-projets 3d/1.mp4" width="100%" height="auto" type="video/mp4" autoplay muted loop></video>
+          <!-- images secondaires -->
+          <div class="work-gallery-row">
+            <div class="gallery"><video src="img/7-projets 3d/2.mp4" width="100%" height="auto" type="video/mp4" controls muted loop></video></div>
+            <div class="gallery"><video src="img/7-projets 3d/3.mp4" width="100%" height="auto" type="video/mp4" controls muted loop></video></div>
+        </div>
+        <div class="work-gallery-row">
+          <div class="gallery"><img src="img/7-projets 3d/4.png" width="100%" alt=""></div>
+          <div class="gallery"><img src="img/7-projets 3d/5.png" width="100%" alt=""></div>
+      </div> 
+      </div> 
+        <div class="work-right">
+          <h1>Projets et expérimentations 3D</h1>
+          <p>Voici quelques expérimentations et projets que j'ai réalisé en explorant la 3D.</p>     
+            <h5><a href="projets-3d.html">&larr;See more</a></h5>
+        </div>  
+      </div>
+    </div>
+
+      </div>
+  
+
+
+
+    
+</div>
+
+<div class="contact" id="contact">
+  <div class="wrapper-contact">
+    <div class="wrapper-contact-info">
+      <div class="contact-container-info">
+        <div class="contact-line"></div>
+        <div class="contact-info">
+          <ul class="contact-info-list">
+            <li><em><b>Théo Dupont</b></em></li>
+            <li></li>
+            <li><a href="mailto:theodupontpro@gmail.com?subject=Contact&body=" id="mail">theodupontpro@gmail.com </a></li>
+          </ul>
+          <p>Sortant d'un BTS Design Graphique je suis à la recherche d'un premier <em><b>emploi</b></em> 
+            dans le design graphique et la communication.</p>
+            <div class="contact-btn-cv">
+              <a href="CV Théo Dupont.pdf" onclick="download='CV Théo Dupont'" target="_blank" id="contact-btn-cv">Télécharger mon CV</a>
+            </div>
+        </div>
+      </div>
+      <div class="contact-container-social">
+        <div class="contact-line"></div>
+        <div class="contact-social">
+          <ul>
+            <li><a href="https://www.facebook.com/theo.dupont.52090/" target="_blank">Facebook : Théo Dupont</a></li>
+            <li><a href="https://www.instagram.com/sioooood/" target="_blank">Instagram : @Sioooood</a></li>
+            <li><a href="https://twitter.com/Siooooood" target="_blank">Twitter : @Siooooood</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="contact-container-img">
+      <img src="img/typewriter.png" width="100%" alt="">
+    </div>
+  </div>
+</div>
+
+<footer>
+        <h6>© 2020</h6>
+        <h6>-</h6>
+        <h6>DUPONT Théo</h6>
+        <h6>-</h6>
+        <h6>Tous droits réservés</h6>
+        <h6>-</h6>
+        <h6><a href="mailto:theodupontpro@gmail.com?subject=Contact&body=">Email : theodupontpro@gmail.com </a></h6>
+        <h6>-</h6>
+        <h6><a href="https://www.instagram.com/sioooood/" target="_blank">Instagram</a></h6>
+        <h6>-</h6>
+        <h6><a href="https://twitter.com/Siooooood" target="_blank">Twitter</a></h6>
+</footer>
+
+
+
+
+</body>
+
+<!--custom cursor move-->
+
+<div class="cursor" id="cursor"></div>
+
+<script>
+  const cursor = document.querySelector('.cursor');
+  document.addEventListener('mousemove', (e) => {
+      cursor.style.left = e.pageX + 'px';
+      cursor.style.top = e.pageY + 'px';
+  })
+  </script>
+
+
+
+</html>

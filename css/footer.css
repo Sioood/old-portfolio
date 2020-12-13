@@ -1,0 +1,76 @@
+footer{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    bottom: 0;
+    margin: 0;
+    background-color: #000;
+    margin-top: 5vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer h6{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    padding: 0;
+    font-size: 12px;
+}
+
+footer a{
+    color: #fff
+}
+
+
+footer a:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+    color: #e63b3b;
+    text-decoration: none;
+}
+
+footer a:active{
+    transition-duration: 0.5s;
+    transform: scale(0.75);
+}
+
+
+@media screen and (max-width: 1023px){
+    footer-text h6{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 12px;
+        
+    }
+}
+
+@media screen and (max-width: 600px){
+    footer-text,h6{
+        font-size: 8px;
+        
+    }
+}
+
+@media screen and (max-width: 374px){
+    footer-text h6{
+        font-size: 12px;
+        
+    }
+    footer{
+        height: 50px;
+        padding: 7px;
+    }
+}

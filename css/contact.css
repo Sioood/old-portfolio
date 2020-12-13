@@ -1,0 +1,165 @@
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wrapper-contact{
+    width: 85vw;
+    height: auto;
+    background-color: rgba(125, 125, 125, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-contact-info{
+    width: 25vw;
+    height: 100%;
+    background-color: rgba(125, 125, 125, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-container-info{
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: rgba(125, 125, 125, 0);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fff;
+}
+
+.contact-line{
+    width: 100%;
+    height: 0.2vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    border-color: transparent;
+    background-color: #fff;
+}
+
+.contact-info{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info-list{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'fivo_sans_modernregular';
+}
+
+.contact-info-list li{
+    padding-bottom: 5px;
+}
+
+.contact-info-list li:nth-last-child(1){
+    padding-bottom: 20px;
+}
+
+.contact-info-list h2{
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info-list a{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.contact-info p{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'fivo_sans_modernregular';
+}
+
+.contact-btn-cv {
+    padding-top: 2vh;
+    background: transparent;
+    z-index: 1;
+}
+
+.contact-btn-cv a{
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'fivo_sans_modernregular';
+}
+
+.contact-btn-cv a:hover{
+    text-decoration: none;
+}
+
+.contact-container-social{
+    width: auto;
+    height: auto;
+    background-color: rgba(125, 125, 125, 0);
+    padding: 0;
+    color: #fff;
+}
+
+.contact-social h4{
+    padding: 0;
+    margin: 0;
+}
+
+.contact-social ul{
+    padding: 0;
+    margin: 0;
+    font-family: 'fivo_sans_modernregular';
+    list-style-type: none;
+}
+
+.contact-social li a{
+    padding: 0;
+    margin: 0;
+    font-family: 'fivo_sans_modernregular';
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-social li a:hover{
+    color: #e63b3b;
+}
+
+.contact-container-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 17.5%;
+    background-color: rgba(125, 125, 125, 0);
+    overflow: hidden;
+}
+
+.contact-container-img img{
+    background-size: contain;
+}
+
+@media screen and (max-width: 767px ){
+    .contact-container-img{
+        display: none;
+    }
+    
+    .wrapper-contact-info{
+        width: 100vw;
+    }
+}

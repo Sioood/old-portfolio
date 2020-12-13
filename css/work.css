@@ -1,0 +1,201 @@
+.work{
+    width: 100vw;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: #000;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-work{
+    position: relative;
+    width: 85vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.container-work{
+    position: relative;
+    height: auto;
+    background-color: rgba(125, 125, 125, 0);
+    color: #fff;
+
+}
+
+.wrapper-work-info{
+    width: 25vw;
+    height: auto;
+    background-color: rgba(125, 125, 125, 0);
+    margin-right: 2vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.wrapper-work-info h6{
+    margin: 0;
+}
+
+.wrapper-work-info a{
+    margin: 0;
+    color: #e63b3b;
+    text-decoration: none;
+}
+
+.wrapper-work-info #first-info h6:nth-child(2){
+    text-transform: uppercase;
+}
+
+.wrapper-work-info #second-info h6:nth-child(2){
+    color: #e63b3b;
+}
+
+.wrapper-work-info h6:nth-child(1){
+    color: #555555;
+    padding-bottom: 2px;
+}
+
+.top{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgba(125, 125, 125, 0);
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.top h6{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.line{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 65.5vw;
+    height: 0.2vh;
+    border-color: transparent;
+    background-color: #fff;
+}
+
+.work-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(125, 125, 125, 0);
+}
+
+.work-left{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(125, 125, 125, 0);
+}
+
+.work-left img{
+    background-size: contain;
+    width:  100%;
+    pointer-events: none;
+}
+
+.work-left video{
+    margin: 0;
+    padding: 0;
+    pointer-events: noe;
+}
+
+.work-right{
+    position: relative;
+    width: 25%;
+    height: auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-right h1{
+    padding: 0;
+    margin: 0;
+    font-family: 'avara';
+}
+
+.work-right p{
+    font-family: 'fivo_sans_modernregular';
+}
+
+.work-right h5{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 2%;
+    color: #fff;
+    text-decoration: underline;
+    /* à retirer quand mis à jour sur les pages plus des projets */
+    display: none;
+}
+
+.work-right h5 a{
+    padding: 0;
+    margin: 0;
+    bottom: 2%;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.work-right h5 a:hover{
+    color: #e63b3b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.work-gallery-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-size: contain;
+}
+
+.gallery{
+    width: 100%;
+    height: auto;
+}
+
+#atelier-demile{
+    background-color: #fff;
+}
+
+@media screen and (max-width: 767px ){
+    .work-content{
+        word-break: break-word;
+        flex-direction: row;
+    }
+    .work-right h1{
+        display: none;
+    }
+    .work-right p{
+        display: none;
+    }
+    .work-right h5{
+        font-size: 8px;
+        display: initial;
+    }
+
+}

@@ -1,0 +1,13 @@
+.wip{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wip h1{
+    font-size: 100px;
+    color: #e63b3b;
+    z-index: 99999;
+}
