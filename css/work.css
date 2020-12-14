@@ -147,8 +147,6 @@
     bottom: 2%;
     color: #fff;
     text-decoration: underline;
-    /* à retirer quand mis à jour sur les pages plus des projets */
-    display: none;
 }
 
 .work-right h5 a{
