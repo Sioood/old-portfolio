@@ -4,51 +4,49 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>http://theodupont.ga/</loc>
+  <loc>https://theodupont.ga/</loc>
   <lastmod>2020-12-11T10:22:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://theodupont.ga/Akolade.html</loc>
+  <loc>https://theodupont.ga/Akolade.html</loc>
   <lastmod>2020-12-11T10:22:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://theodupont.ga/Salon-du-vin-et-des-terroirs.html</loc>
+  <loc>https://theodupont.ga/Salon-du-vin-et-des-terroirs.html</loc>
   <lastmod>2020-12-11T10:22:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://theodupont.ga/le-Jardin-de-Servins.html</loc>
+  <loc>https://theodupont.ga/le-Jardin-de-Servins.html</loc>
   <lastmod>2020-12-11T10:22:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://theodupont.ga/atelier-emile.html</loc>
+  <loc>https://theodupont.ga/atelier-emile.html</loc>
   <lastmod>2020-12-11T10:22:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://theodupont.ga/asterisque.html</loc>
+  <loc>https://theodupont.ga/asterisque.html</loc>
   <lastmod>2020-12-11T10:22:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://theodupont.ga/Betraying-The-Martyrs.html</loc>
+  <loc>https://theodupont.ga/Betraying-The-Martyrs.html</loc>
   <lastmod>2020-12-11T10:22:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://theodupont.ga/projets-3d.html</loc>
+  <loc>https://theodupont.ga/projets-3d.html</loc>
   <lastmod>2020-12-11T10:22:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://theodupont.ga/CV%20Th%C3%A9o%20Dupont.pdf</loc>
+  <loc>https://theodupont.ga/CV%20Th%C3%A9o%20Dupont.pdf</loc>
   <lastmod>2020-12-10T20:09:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
