@@ -290,6 +290,12 @@ blockquote{
 }
 
 @media screen and (max-width: 426px ){
+    .about{
+
+    margin-top: -10vh;
+
+}
+    
     .wrapper-aboutme-top{
         flex-direction: column;
     }
