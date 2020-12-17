@@ -55,7 +55,7 @@ html{
     border: #fff solid 1.25px;
 }
 
-@media screen and (max-width: 769px ){
+@media screen and (max-device-width: 769px ){
     .cursor{
     display: none;
     }
