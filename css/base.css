@@ -55,6 +55,12 @@ html{
     border: #fff solid 1.25px;
 }
 
+@media screen and (max-width: 769px ){
+    .cursor{
+    diplay:none;
+    }
+}
+
 /* @media screen and (max-width: 1023px ){
     ::-webkit-scrollbar{
         display: none;
