@@ -57,7 +57,7 @@ html{
 
 @media screen and (max-width: 769px ){
     .cursor{
-    diplay:none;
+    display: none;
     }
 }
 
